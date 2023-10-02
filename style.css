@@ -2,6 +2,13 @@
     background-color: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+:root{
+--light: antiquewhite;
+--font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 header{
 border: 5px solid black;
 background-image: url("./assets/header-image.jpg");
@@ -9,9 +16,9 @@ background-blend-mode: multiply;
 }
 
 h1{
-    color: antiquewhite;
+    color: var(--light);
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font);
     background-color: unset;
     text-align: left;
     font-style: italic;
@@ -33,7 +40,7 @@ ul li{
 a{
     color: black;
     background-color: unset;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font);
 }
 
 nav a:hover{
@@ -41,7 +48,7 @@ nav a:hover{
 }
 
 h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font);
     font-style: italic;
 }
 
