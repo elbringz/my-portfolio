@@ -50,9 +50,29 @@ nav a:hover{
 h2{
     font-family: var(--font);
     font-style: italic;
+    text-align: left;
+}
+
+article{
+    text-align: center;
+    border: solid darkblue;
 }
 
 article p{
-    text-align: center;
-    border: solid black;
+text-wrap: wrap;
+}
+
+.personal-photos{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+article img{
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+.first-project{
+    max-height: 600px;
+    max-width: 600px;
 }
