@@ -30,6 +30,18 @@ nav{
     background-color: unset;
 }
 
+#about-me{
+
+}
+
+#my-projects{
+
+}
+
+#contact-info{
+    border: 3px solid darkcyan;
+}
+
 ul li{
     display: inline-block;
     margin-left: 5px;
