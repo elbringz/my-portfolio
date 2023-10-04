@@ -1,20 +1,21 @@
+/*Universal Styles*/
 *{
     background-color: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*Variables*/
 :root{
 --light: antiquewhite;
 --font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+/*Header Styles*/
 header{
 border: 5px solid black;
 background-image: url("./assets/header-image.jpg");
 background-blend-mode: multiply;
 }
-
+/*h1 Styles*/
 h1{
     color: var(--light);
     font-size: 50px;
@@ -24,12 +25,12 @@ h1{
     font-style: italic;
     
 }
-
+/*nav positioned to the right*/
 nav{
     text-align: right;
     background-color: unset;
 }
-
+/*ids for nav link functionality*/
 #about-me{
 
 }
@@ -41,30 +42,30 @@ nav{
 #contact-info{
     border: 3px solid darkcyan;
 }
-
+/*nav text styling*/
 ul li{
     display: inline-block;
     margin-left: 5px;
     font-size: larger;
     background-color: unset;
 }
-
+/*nav text styling*/
 a{
     color: black;
     background-color: unset;
     font-family: var(--font);
 }
-
+/*link hover styling*/
 nav a:hover{
     color: blue;
 }
-
+/*h2 styling*/
 h2{
     font-family: var(--font);
     font-style: italic;
     text-align: left;
 }
-
+/*article format styling*/
 article{
     text-align: center;
     border: 3px solid darkcyan;
@@ -73,7 +74,7 @@ article{
 article p{
 text-wrap: wrap;
 }
-
+/*image set size*/
 .personal-photos{
     max-height: 500px;
     max-width: 500px;
@@ -83,25 +84,24 @@ article img{
     margin-right: 40px;
     margin-left: 100px;
 }
-
+/*makes first project image larger*/
 .first-project{
     max-width: 70%;
     
 }
-
+/*flex container*/
 .flex{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    
 }
+/*flex child*/
 .flex-item {
     max-width: 40%;
 }
 
-
-
+/*affects all flex children*/
 .flex > *{
     flex-grow: 1;
     flex-basis: 33%;
